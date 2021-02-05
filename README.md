@@ -2,6 +2,8 @@
 
 Syntax highlighting for the ijvm language.
 
+The file extension for ijvm files is `.j`
+
 ## Installation - with Vundle
 
 Open Vim and run thge command `:PluginInstall 'martinkors/ijvm-vim'` and then add the plugin to your *vimrc* by adding the line `Plugin 'martinkors/ijvm-vim'`.
