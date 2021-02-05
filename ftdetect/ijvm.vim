@@ -1,0 +1,1 @@
+au BufRead,BufNewFile *.ijvm set filetype=ijvm
