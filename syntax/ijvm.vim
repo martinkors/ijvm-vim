@@ -12,7 +12,7 @@ syn match   ijvmComment         '//.*$' display contains=@Spell
 syn match   ijvmSymbol          "[a-z_][a-z0-9_]*"
 syn match   ijvmLabel           "[a-z_][a-z0-9_]*:"he=e-1
 
-syn match   ijvmNumber          "\<[1-9]\d*\>" display
+syn match   ijvmNumber          "\v(0x[0-9a-fA-F]+|\d+)"
 
 syn match   ijvmMacro           "\.method"
 syn match   ijvmMacro           "\.args"
@@ -31,5 +31,5 @@ hi def link ijvmFunction        Function
 hi def link ijvmMacro           Macro
 hi def link ijvmComment         Comment
 hi def link ijvmLabel           Label
-hi def link ijvmSymbol          Identifier
 hi def link ijvmNumber          Number
+hi def link ijvmSymbol          Identifier
